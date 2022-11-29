@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--My font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Tenali+Ramakrishna&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="Images/commonweal-logo-3.png">
+
+    <title>Commonweal Theatre Redesign</title>
+</head>
+
+<body class="background-primary">
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark background-black">
+    
+        <img class="img-fluid nav-logo" src="Images/commonweal-logo-1.png" alt="Commonweal theatre logo">
+        <form class="form-inline m-5 my-lg-0">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                aria-describedby="search-addon" />
+        </form>
+         <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar"
+            aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="n_bar">
+            
+            <ul class="navbar-nav">
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Performances
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Our Current Season</a></li>
+                        <li><a class="dropdown-item" href="#">Announcing our 2023 Season!</a></li>
+                        <li><a class="dropdown-item" href="#">Commonweal Presents</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tickets
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Purchase Tickets</a></li>
+                        <li><a class="dropdown-item" href="#">Season Passes</a></li>
+                        <li><a class="dropdown-item" href="#">Pricing</a></li>
+                        <li><a class="dropdown-item" href="#">Calendar</a></li>
+                        <li><a class="dropdown-item" href="#">Virtual Programming</a></li>
+                        <li><a class="dropdown-item" href="#">Gift Certificates</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Visit
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Map & Directions</a></li>
+                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Support
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Donate</a></li>
+                        <li><a class="dropdown-item" href="#">Million Dollar Club</a></li>
+                        <li><a class="dropdown-item" href="#">Volunteer</a></li>
+                        <li><a class="dropdown-item" href="#">Planned Giving</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Our Theatre</a></li>
+                        <li><a class="dropdown-item" href="#">Our Company</a></li>
+                        <li><a class="dropdown-item" href="#">Our History</a></li>
+                        <li><a class="dropdown-item" href="#">20 Years of Ibsen</a></li>
+                        <li><a class="dropdown-item" href="#">Board of Directors</a></li>
+                        <li><a class="dropdown-item" href="#">Employment</a></li>
+                        <li><a class="dropdown-item" href="#">Frequently Asked Questions</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                        <li><a class="dropdown-item" href="#">Lanesboro</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Education
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Apprenticeships</a></li>
+                        <li><a class="dropdown-item" href="#">Student Matinees</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item px-xl-5 px-lg-3 py-2 dropdown">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        News &amp; Events
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Special Events</a></li>
+                        <li><a class="dropdown-item" href="#">Reviews &amp; Features</a></li>
+                        <li><a class="dropdown-item" href="#">Media Center</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        </div>
+    </nav>
+    <!-- End navigation bar -->
+
+    <!------------------------------------Navigation-----------------------------------------
+    <nav class="container-fluid background-black sticky-top pt-3 px-5">
+        <div class="row mb-2">
+            <div class="col-3 col-sm-2 col-lg-1">
+                <img class="img-fluid" src="Images/commonweal-logo-1.png" alt="Commonweal theatre logo">
+            </div>
+            <div class="col-2 col-sm-5 col-md-5 col-lg-8">
+
+            </div>
+            <div class="col-7 col-sm-5 col-md-5 col-lg-3 mt-4">
+                <div class="input-group rounded">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" />
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+
+            <div class="row mt-4 mb-3 pb-2">
+                <div class="col-lg-2">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Performances
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Our Current Season</a></li>
+                        <li><a class="dropdown-item" href="#">Announcing our 2023 Season!</a></li>
+                        <li><a class="dropdown-item" href="#">Commonweal Presents</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tickets
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Purchase Tickets</a></li>
+                        <li><a class="dropdown-item" href="#">Season Passes</a></li>
+                        <li><a class="dropdown-item" href="#">Pricing</a></li>
+                        <li><a class="dropdown-item" href="#">Calendar</a></li>
+                        <li><a class="dropdown-item" href="#">Virtual Programming</a></li>
+                        <li><a class="dropdown-item" href="#">Gift Certificates</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Visit
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Map & Directions</a></li>
+                        <li><a class="dropdown-item" href="#">Accessibility</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Support
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Donate</a></li>
+                        <li><a class="dropdown-item" href="#">Million Dollar Club</a></li>
+                        <li><a class="dropdown-item" href="#">Volunteer</a></li>
+                        <li><a class="dropdown-item" href="#">Planned Giving</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        About
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Our Theatre</a></li>
+                        <li><a class="dropdown-item" href="#">Our Company</a></li>
+                        <li><a class="dropdown-item" href="#">Our History</a></li>
+                        <li><a class="dropdown-item" href="#">20 Years of Ibsen</a></li>
+                        <li><a class="dropdown-item" href="#">Board of Directors</a></li>
+                        <li><a class="dropdown-item" href="#">Employment</a></li>
+                        <li><a class="dropdown-item" href="#">Frequently Asked Questions</a></li>
+                        <li><a class="dropdown-item" href="#">Contact</a></li>
+                        <li><a class="dropdown-item" href="#">Lanesboro</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Education
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Apprenticeships</a></li>
+                        <li><a class="dropdown-item" href="#">Student Matinees</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <a href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        News &amp; Events
+                    </a>
+                    <ul class="dropdown-menu rounded-0 mt-3" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Special Events</a></li>
+                        <li><a class="dropdown-item" href="#">Reviews &amp; Features</a></li>
+                        <li><a class="dropdown-item" href="#">Media Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+-->
+    <!--Carousel Image-->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://user-images.githubusercontent.com/114713274/204173185-2dbb46f3-6662-4501-97e2-778397578d31.jpg"
+                    class="d-block w-100" alt="Alice in Wonderland">
+            </div>
+            <div class="carousel-item">
+                <img src="https://user-images.githubusercontent.com/114713274/204173511-fc069a9f-1244-4bd7-a0ac-f8c8197e4fd0.jpg"
+                    class="d-block w-100" alt="Alice">
+            </div>
+            <div class="carousel-item">
+                <img src="https://user-images.githubusercontent.com/114713274/204173995-4fae32c9-c4a0-4410-af7e-14c3e990e130.jpg"
+                    class="d-block w-100" alt="Hamlet">
+            </div>
+            <div class="carousel-item">
+                <img src="https://user-images.githubusercontent.com/114713274/204173658-e286270c-15ad-4207-a448-fe51c55ecaea.jpg"
+                    class="d-block w-100" alt="Death Trap">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--theater content-->
+    <div class="container text-center">
+        <div class="row align-items-start mt-5">
+            <div class="col">
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/114713274/204171954-3191de43-99e1-4b09-940b-d43307344d6c.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row align-items-start mt-5">
+            <div class="col">
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/114713274/204171558-9719cb3f-ebf3-4ee8-8f22-8210b2dbb21c.jpg">
+            </div>
+            <div class="col">
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/114713274/204170144-af0dd7fb-168f-4f2e-a315-f522e278a0d9.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="container text-center">
+        <div class="row align-items-start mt-5">
+            <div class="col">
+                <img class="img-fluid"
+                    src="https://user-images.githubusercontent.com/114713274/204171328-f5fde379-55e8-4291-bc51-486d6330b5ba.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------------Footer----------------------------------------->
+    <footer class="container-flulid background-black mt-5 px-5 text-center">
+        <div class="row py-3">
+            <div class="col-12 col-md-4 mt-2">
+                <p>Commonweal Theatre Company
+                    <br>
+                    208 Parkway Ave. N, Lanesboro MN 55949
+                    <br><br>
+                <div class="footer-link">
+                    Phone: <a href="" target="blank"> 800.657.7025 </a>
+                </div>
+                <div class="footer-link">
+                    Email: <a href="mailto:info@commonwealtheatre.org" target="blank">
+                        info@commonwealtheatre.org
+
+                    </a>
+                </div>
+                </p>
+
+            </div>
+            <div class="col-12 col-md-1">
+
+            </div>
+            <div class="col-12 col-md-2 social-icons mt-2">
+                <p>Follow Us On Social Media:</p>
+                <a href="" target="blank"> <img class="footer-img" src="Images/duck_icon_facebook.png"
+                        alt="facebook icon">
+                </a>
+                <a href="" target="blank"> <img class="footer-img" src="Images/duck_icon_nstagram.png"
+                        alt="instagram icon">
+                </a>
+                <a href="" target="blank"> <img class="footer-img" src="Images/duck_icon_twitter.png"
+                        alt="twitter icon">
+                </a>
+                <a href="" target="blank"> <img class="footer-img" src="Images/duck_icon_apple podcasts.png"
+                        alt="podcast icon">
+                </a>
+                <a href="" target="blank"> <img class="footer-img" src="Images/duck_icon_wordpress.png"
+                        alt="wordpress icon">
+                </a>
+                <a href="" target="blank"> <img class="footer-img" src="Images/duck_icon_tripadvisor.png"
+                        alt="trip advisor icon">
+                </a>
+            </div>
+            <div class="col-12 col-md-2">
+
+            </div>
+            <div class="col-12 col-md-3 mt-2">Subscribe to our email newsletter:
+                <br>
+                <p class="py-4"><a class="button" href="" target="blank">SUBSCRIBE</a>
+                </p>
+            </div>
+    </footer>
+</body>
+
+<script src="styles.js"></script>
+
+</html>
